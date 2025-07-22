@@ -19,7 +19,7 @@ Este proyecto es una API RESTful construida con Laravel y documentada con Scramb
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/DarioSoto97/api-restaurante.git
+git clone https://github.com/DarioSoto97/api-restaurante
 cd api-restaurante
 ```
 
