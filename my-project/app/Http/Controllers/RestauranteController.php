@@ -8,6 +8,8 @@ use App\Models\Restaurante;
 
 class RestauranteController extends Controller
 {
+
+    
     public function index()
     {
         $restaurantes = Restaurante::all();

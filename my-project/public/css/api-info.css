@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to right, #f8fafc, #eef2f7);
+    color: #1f2937;
+    padding: 3rem;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #111827;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+}
+
+th {
+    background: #f3f4f6;
+    font-weight: 600;
+    color: #374151;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tbody tr:hover {
+    background-color: #e5e7eb;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.method {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    color: white;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.method.get {
+    background-color: #10b981; /* verde */
+}
+
+.method.post {
+    background-color: #3b82f6; /* azul */
+}
+
+.method.put {
+    background-color: #f59e0b; /* amarillo */
+}
+
+.method.patch {
+    background-color: #6366f1; /* morado */
+}
+
+.method.delete {
+    background-color: #ef4444; /* rojo */
+}
+
+.btn-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.btn {
+    background: #2563eb;
+    color: white;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 0 5px 10px rgba(37, 99, 235, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1e40af;
+    box-shadow: 0 8px 20px rgba(30, 64, 175, 0.6);
+}
