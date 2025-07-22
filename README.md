@@ -76,13 +76,16 @@ Authorization: Bearer 123456789abcdef (Suponiendo que 123456789abcdef sea tu API
 Puedes probar esta autenticación directamente desde la documentación (/docs/api) usando el botón "Authorize".
 
 ## ✅ Endpoints disponibles
-Método	Ruta	Descripción
-GET	/api/restaurantes	Lista de restaurantes
-GET	/api/restaurantes/{id}	Ver un restaurante
-POST	/api/restaurantes	Crear restaurante
-PUT	/api/restaurantes/{id}	Actualizar restaurante
-PATCH	/api/restaurantes/{id}	Actualización parcial
-DELETE	/api/restaurantes/{id}	Eliminar restaurante
+
+| Método  | Ruta                          | Descripción                   |
+|---------|-------------------------------|-------------------------------|
+| GET     | `/api/restaurantes`          | Lista de restaurantes         |
+| GET     | `/api/restaurantes/{id}`     | Ver un restaurante por ID     |
+| POST    | `/api/restaurantes`          | Crear un nuevo restaurante    |
+| PUT     | `/api/restaurantes/{id}`     | Actualizar restaurante completo |
+| PATCH   | `/api/restaurantes/{id}`     | Actualización parcial         |
+| DELETE  | `/api/restaurantes/{id}`     | Eliminar restaurante          |
+
 
 ## 🛠️ Herramientas usadas
 
