@@ -34,11 +34,11 @@ Esto iniciará los servicios necesarios (PHP, MySQL, etc.) usando imágenes de B
 
 Laravel necesita un archivo llamado .env para cargar la configuración del entorno (conexión a base de datos, clave de la app, puertos, API keys, etc.).
 
-Para crearlo, simplemente copia el archivo de ejemplo incluido en el proyecto:
+Para crearlo, simplemente copia el archivo de ejemplo incluido en el proyecto (debes estar dentro de "my-project"):
 ```bash
 cp .env.example .env
 ```
-Este paso crea tu archivo .env personal con valores por defecto que luego puedes modificar.
+Este paso crea tu archivo .env personal con valores por defecto que luego puedes modificar. 
 
 ### 4. Genera la clave de la aplicación
 ```bash
